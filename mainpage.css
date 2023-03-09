@@ -97,8 +97,8 @@ nav ul li:hover>ul   {
     background: #EAEAEA;
 }
 .product-menu ul li{
-    height: 48px;
-    padding-top: 10px;
+    height: 60px;
+    padding-top: 18px;
     border-bottom: 1px solid #E8E8E8;
     display: flex;
 }
@@ -106,7 +106,7 @@ nav ul li:hover>ul   {
     width: 250px;
 }
 .product-menu li .icon-left{
-    padding: 5px 20px;
+    padding: 2px 20px;
 }
 .product-menu li .icon-right{
     margin-right: 50px;
@@ -140,7 +140,14 @@ nav ul li:hover>ul   {
     width: 700px;
     padding-top: 10px;
 }
-.belike .card .sale-rate{
+.belike .main-belike{
+    margin-top: 20px;
+    display: flex;
+}
+.belike .ao-belike img{
+    width: 100%;
+}
+.belike .main-belike .sale-rate{
     width: 50px;
     height: 40px;
     color: #FFFFFF;
@@ -148,10 +155,36 @@ nav ul li:hover>ul   {
     font-size: 14px;
     font-weight: 800;
     background: #F23434;
-    z-index: 999;
+    position: relative;
+    top: -365px;
 }
-.belike .card img{
-  position: relative;
-  top: -40px;
+.belike .card-body{
+    text-align: justify;
+}
+.belike .card-body .card-title span{
+    color: #6986CA;
+    font-weight: 700;
 }
 /* end of slider */
+/* start of product widget */
+.product-widget ul{
+    list-style: none;
+}
+.product-widget .photo img{
+    width: 100%;
+    padding: 25px 10px;
+}
+.product-widget .card-body-info{
+    text-align: center;
+    border: 1px solid #E8E8E8;
+}
+.product-widget .card-body-info h5{
+    padding: 15px 15px;
+}
+.product-widget .card-body-info input{
+    margin-bottom:  15px;
+}
+.product-widget .card-body-info button{
+    margin: 15px 15px;
+}
+/* end of product widget */
