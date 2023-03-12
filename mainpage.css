@@ -188,3 +188,58 @@ nav ul li:hover>ul   {
     margin: 15px 15px;
 }
 /* end of product widget */
+/* start of banner */
+.banner img{
+    width: 100%;
+}
+/* end of banner */
+/* start of layout1 */
+.layout1 .layout-menu ul{
+    list-style: none;
+    border: 1px solid #E8E8E8;
+}
+.layout1 .layout-menu .nav-bar{
+    height: 80px;
+    display: flex;
+}
+.layout1 .layout-menu .icon-left{
+    width: 50px;
+    height: 50px;
+    background: #ebb651;
+}
+.layout1 .layout-menu .text{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 15px;
+}
+.layout1 .layout-menu ul li{
+    height: 50px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.layout1 .layout-menu ul li a{
+    color: #3f3f3f;
+   text-decoration: none;
+}
+.layout1 .layout-menu ul li:hover{
+    background: #ebb651;
+}
+/* start of product-grid */
+.layout1 .product-grid .card img{
+    width: 100%;
+}
+.layout1 .product-grid .card .hot{
+    width: 50px;
+    height: 40px;
+    color: white;
+    padding: 10px 10px;
+    background: #f23434;
+    position: relative;
+    top: 50px;
+}
+/* end of product-grid */
+.layout1 .tab-slider1 img{
+    width: 100%;
+    padding-top: 30px;
+}
+/* end of layout1 */
