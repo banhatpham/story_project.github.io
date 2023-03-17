@@ -194,6 +194,10 @@ nav ul li:hover>ul   {
 }
 /* end of banner */
 /* start of layout1 */
+.layout1{
+    margin-top: 30px;
+    border-top: 2px solid #ebb651;
+}
 .layout1 .layout-menu ul{
     list-style: none;
     border: 1px solid #E8E8E8;
@@ -205,6 +209,8 @@ nav ul li:hover>ul   {
 .layout1 .layout-menu .icon-left{
     width: 50px;
     height: 50px;
+    padding: 5px 15px;
+    font-size: 30px;
     background: #ebb651;
 }
 .layout1 .layout-menu .text{
@@ -243,3 +249,112 @@ nav ul li:hover>ul   {
     padding-top: 30px;
 }
 /* end of layout1 */
+/* start of layout2 */
+.layout2{
+    margin-top: 30px;
+    border-top: 2px solid #ef939e;
+}
+.layout2 .layout-menu ul{
+    list-style: none;
+    border: 1px solid #E8E8E8;
+}
+.layout2 .layout-menu .nav-bar{
+    height: 80px;
+    display: flex;
+}
+.layout2 .layout-menu .icon-left{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px 10px;
+    color: white;
+    background: #ef939e;
+}
+.layout2 .layout-menu .text{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 15px;
+}
+.layout2 .layout-menu ul li{
+    height: 50px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ef939e;
+}
+.layout2 .layout-menu ul li a{
+    color: #3f3f3f;
+   text-decoration: none;
+}
+.layout2 .layout-menu ul li:hover{
+    background: #ef939e;
+}
+/* start of product-grid */
+.layout2 .product-grid .card img{
+    width: 100%;
+}
+.layout2 .product-grid .card .hot{
+    width: 50px;
+    height: 40px;
+    color: white;
+    padding: 10px 10px;
+    background: #f23434;
+    position: relative;
+    top: 50px;
+}
+/* end of product-grid */
+.layout2 .tab-slider1 img{
+    width: 100%;
+    padding-top: 30px;
+}
+/* end of layout2 */
+/* start of footer top  */
+.footer-top{
+    background: #353535;
+    margin-top: 30px;
+}
+.footer-top .item{
+    border-right: 1px solid #a9a9a9;
+}
+.footer-top .item ul{
+    justify-content: center;
+}
+.footer-top .item ul{
+    list-style: none;
+    display: flex;
+}
+.footer-top .item li{
+    margin: 25px 20px
+}
+.footer-top .item .line{
+    width: 2px;
+    height: 30px;
+    background: #a9a9a9;
+    margin-top: 15px;
+}
+.footer-top .item  h1{
+    font-size: 22px;
+    color: white;
+}
+.footer-top .item p{
+    font-size: 14px;
+    color: #888888;
+}
+/* end of footer top  */
+/* start of footer  */
+.footer{
+    background: #3f3f3f;
+}
+.footer .footer-column {
+    justify-items: center;
+}
+.footer .footer-column ul{
+    list-style: none;
+}
+.footer .footer-column .main-title{
+    padding: 30px 10px;
+    color: white;
+}
+.footer .footer-column li{
+    color: #a9a9a9;
+    padding: 5px 10px;
+}
+/* end of footer */
