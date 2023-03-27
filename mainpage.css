@@ -194,6 +194,10 @@ nav ul li:hover>ul   {
 }
 /* end of banner */
 /* start of layout1 */
+.layout-content{
+    display: flex;
+    border: 1px solid gray;
+}
 .layout1{
     margin-top: 30px;
     border-top: 2px solid #ebb651;
@@ -306,6 +310,26 @@ nav ul li:hover>ul   {
     padding-top: 30px;
 }
 /* end of layout2 */
+/* barnd-slide */
+.slider-barnd img {
+    background: #fff;
+    color: black;
+    font-size: 36px;
+    margin: 20px;
+    padding: 20%;
+    position: relative;
+    text-align: center;
+  }
+.slider-barnd {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background: red; */
+  }
+  
+  .slick-list {
+      padding-left: 0px!important;
+  }
+/*  */
 /* start of footer top  */
 .footer-top{
     background: #353535;
